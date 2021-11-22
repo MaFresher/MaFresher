@@ -1,0 +1,196 @@
+<!DOCTYPE html >
+
+	<html>
+	
+	<head>
+	<title>Feedback</title>
+	
+	<style>
+ .navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+nav ul li a.active{
+	     background:white;
+		 color: blue;
+		 border-radius:6px
+		 }
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}	
+.footer {
+position: relative;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color:  #3399FF;
+color: white;
+text-align: center;
+}
+body {
+  background-image: url('background4.jpg');background-repeat:no-repeat;background-size:cover;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>  
+
+<body>
+<div class="navbar">
+  <a class="active" href="well done home page.html">HOME</a>
+  <a href="LOGIN PAGE.html" class="active">LOGIN</a>
+<a class="active" href="PAGE 1.html">INTRODUCTION</a>
+
+   <div class="dropdown">
+    <button class="dropbtn">ISSUES AFFECTING THE COMMUNITIES
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="PAGE 2.html">SUBSTANCE ABUSE</a>
+	  <a href="PAGE 3.html">MAJOR SUBSTANCES ABUSED</a>
+	  <a href="PAGE 4.html">GENDER BASED VIOLENCE</a>
+	  <a href="PAGE 5.html">UNEMPLOYMENT</a>
+	
+    </div>
+  </div>
+	<div >
+   <a href="ABOUT US.html">ABOUT US</a>
+  <a href="feedback.html" >FEEDBACK</a>
+</div>
+
+
+  <img src="unnamed.jpg"  width="100%" height="200">
+  <div class=" centered">
+  <h1 style="color:Blue"><i><img src="LIGHT 3.JPG" width="75%" height="150"> </i></h1>
+  <h3 style="color:white"><i>CHANGING LIVES,CHANGING NATIONS </i><h3>
+  </div>
+ </div>
+ <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <body bgcolor = pink text=black>
+  
+   <div class="page-section">
+    <div class="container">
+      <h1 style="color:#AD67EA" class="text-center wow fadeInUp">Get in Touch</h1>
+
+      <form class="contact-form mt-5">
+        
+		  <div class="col-12 py-2 wow fadeInUp">
+            <label style="color:#AD67EA" for="message"> <p style="font-size:25px">Is this website useful? &nbsp &nbsp</label>
+            <textarea id="Give your perspective/comment regarding the website" class="form-control" rows="6" placeholder="Enter Message.."></textarea>
+          </div>
+	
+          <div class="col-12 py-2 wow fadeInUp">
+            <label style="color:#AD67EA" for="message"> <p style="font-size:25px">Give your perspective/comment regarding the website &nbsp &nbsp &nbsp &nbsp</label>
+            <textarea id="Give your perspective/comment regarding the website" class="form-control" rows="6" placeholder="Enter Message.."></textarea>
+          </div>
+		  
+		   <div class="col-12 py-2 wow fadeInUp">
+            <label style="color:#AD67EA" for="message"> <p style="font-size:25px">What is it that you want to know , so that we can keep you updated? &nbsp &nbsp &nbsp &nbsp</label>
+            <textarea id="What is it that you want to know , so that we can keep you updated?" class="form-control" rows="6" placeholder="Enter Message.."></textarea>
+          </div>
+		  
+        
+		
+		<a href="well done home page.html" button>Submit</button>
+		</a>
+      </form>
+   
+  
+  <div class="footer">
+ <p>Copyright &copy; 2021 <a href="">MaFresher</a> All Rights Reserved. - Date of Publication:01/11/2021</p>
+<p class="text-right">Design by: <a href="#">MaFresher</a> -last updated:17/11/2021</p>
+</div>
+</body>
+</html>
